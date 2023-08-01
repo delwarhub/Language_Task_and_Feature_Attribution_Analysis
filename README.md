@@ -67,12 +67,19 @@ python3 main.py
 # NOTE
 
 ```
-If there are any dependency issues related to SHAP or LIME not compatibile on local environment try using the .ipynb notebook instead. 
+If there are any dependency issues related to SHAP or LIME not compatible on local environment try using the .ipynb notebook instead. 
 ```
 
 ## Reference
 
-## Repository Information
+## Tasks
+1.	Pick a dataset of your interest that is based on a language task (POS tagging, text retrieval, news analysis, …)
+2.	Implement a classification/regression model with the pre-trained transformer architecture (BERT, Distillbert, XLM-BERT, ...)
+3.	Integrate with LIME/SHAP
+4.	Perform feature attribution analysis and create a visualization of results
+5.	Generate visualizations with selected examples (3-5 correct and 3-5 failed samples) - think about adding counter-factual examples and show the performance change
+6.	Present the overall task & performance, show explainable aspects of the trained model with examples (good & bad predictions)
+
 
 - **Repository Name:** TweetTopic
 - **Version:** COLING main conference 2022
